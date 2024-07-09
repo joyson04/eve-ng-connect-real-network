@@ -1,0 +1,12 @@
+step: 1
+ls -l /dev/vmnet0
+
+ubuntu:~$ ls -l /dev/vmnet0
+crwxrwxrwx 1 root root 119, 0 Jul  9 10:20 /dev/vmnet0
+
+step:2 
+sudo chmod 777  /dev/vmnet0
+
+step:3 
+restart eve-ng on vmware
+
